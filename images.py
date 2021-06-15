@@ -22,4 +22,8 @@ resized_img.save("./JPG/resized.png", "png")
 cropped_img = img.crop((100, 100, 400, 400))
 cropped_img.save("./JPG/cropped.png", "png")
 
+img = Image.open('./JPG/astro.jpg')
+img.thumbnail((400, 400))
+img.save("./JPG/thumbnail_astro.png", "png")
+
 
